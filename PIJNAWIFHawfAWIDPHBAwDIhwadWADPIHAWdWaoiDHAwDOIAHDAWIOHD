@@ -1,0 +1,21 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local colors = {
+    SchemeColor = Color3.fromRGB(0,255,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+local Window = Library.CreateLib("KeySystem", colors)
+local Tab = Window:NewTab("Key System")
+local Section = Tab:NewSection("Welcome To Silent Hub")
+Section:NewButton("Copy Key Link", "", function()
+    setclipboard("https://link-hub.net/106218/QoucxBGSHub")
+    button:UpdateButton("Copied!")
+    button:UpdateButton("Copy Key Link")
+end)
+Section:NewTextBox("Enter Key", "This is a key system", function(txt)
+	if txt == "AdHuy28aX" then 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7TWBE49Js4Tak7GL8iIZLCLr4M8jJHZB4HFA12K/unANDd2d8ndas/main/Premium%20Hub", true))()
+    end
+end)
